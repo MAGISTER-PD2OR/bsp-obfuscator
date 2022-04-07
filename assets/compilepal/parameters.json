@@ -1,0 +1,66 @@
+[
+    {
+        "Name": "Output File Name",
+        "Parameter": " --output",
+        "Description": "Where to output the obfuscated BSP to.",
+        "Value": "",
+        "CanHaveValue": true,
+        "Warning": "Overrides the original BSP by default! Might end up in the CompileLogs folder."
+    },
+    {
+        "Name": "Brush Obfuscation",
+        "Parameter": " --brush",
+        "Description": "Enables brush obfuscation.",
+        "Value": "",
+        "CanHaveValue": false,
+        "Warning": ""
+    },
+    {
+        "Name": "Texture Obfuscation",
+        "Parameter": " --texture",
+        "Description": "Enables brush side texture obfuscation.",
+        "Value": "",
+        "CanHaveValue": false,
+        "Warning": ""
+    },
+    {
+        "Name": "Entity Relocation",
+        "Parameter": " --entity_relocation",
+        "Description": "Any non-postional entities will be moved to the origin (0, 0, 0).",
+        "Value": "",
+        "CanHaveValue": false,
+        "Warning": "Entities are relocated BEFORE they are extracted!"
+    },
+    {
+        "Name": "Entity Extraction",
+        "Parameter": " --entity_extraction",
+        "Description": "Enables entity extraction (useful for server specific maps!).",
+        "Value": "",
+        "CanHaveValue": false,
+        "Warning": "Tiny bit experimental, should work 100% of them time!"
+    },
+    {
+        "Name": "Entity Garbage",
+        "Parameter": " --entity_garbage",
+        "Description": "Adds garbage entities across the map (messages, manhacks, klaxon)",
+        "Value": "",
+        "CanHaveValue": false,
+        "Warning": "Requires Entity Extraction"
+    },
+    {
+        "Name": "Crash Game",
+        "Parameter": " --crash_game",
+        "Description": "Enables crashing the game upon load of BSP (without the original .lmp file)",
+        "Value": "",
+        "CanHaveValue": false,
+        "Warning": "Requires Entity Extraction"
+    },
+    {
+        "Name": "Entity Tag",
+        "Parameter": " --entity_tag",
+        "Description": "The message to display on screen and across the map.",
+        "Value": "PROTECTED MAP. FUCK OFF.",
+        "CanHaveValue": true,
+        "Warning": "48 character limit!"
+    }
+]

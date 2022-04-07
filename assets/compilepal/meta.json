@@ -1,0 +1,10 @@
+{
+    "Name": "BSP-Obfuscator",
+    "Path": "Parameters\\BSP-Obfuscator\\BSP-Obfuscator.exe",
+    "Order": 7.5,
+    "DoRun": true,
+    "ReadOutput": true,
+    "Description": "Obfuscates BSPs to make them harder to decompile.",
+    "PresetDefault": false,
+    "BasisString": " $bsp$"
+}
